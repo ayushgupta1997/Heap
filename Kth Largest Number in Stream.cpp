@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 int kthLargest(int stream[], int n, int k) {
 	priority_queue<int, vector<int>, greater<int>> pq;
 	for ( int i = 0; i < k-1; i++) {
@@ -22,10 +20,7 @@ int kthLargest(int stream[], int n, int k) {
 }
 
 int main() {
-	 // #ifndef ONLINE_JUDGE
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
-    //#endif
+	
 	int n;
 	n = 8;
 	int arr[] = {10, 20, 11, 70, 50, 40, 100, 55};

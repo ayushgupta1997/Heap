@@ -21,11 +21,7 @@ int kthLargest(int stream[], int n, int k) {
 	cout << pq.top();
 }
 
-int main() {
-	 // #ifndef ONLINE_JUDGE
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
-    //#endif
+int main( int argc, char *argv[]) {
 	int n;
 	n = 8;
 	int arr[] = {10, 20, 11, 70, 50, 40, 100, 55};

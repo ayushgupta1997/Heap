@@ -1,4 +1,4 @@
-//Running Median in stream
+//Running Median in stream Calculation
 #include <bits/stdc++.h>
 
 using namespace std;

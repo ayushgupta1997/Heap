@@ -13,7 +13,7 @@ int main() {
         cin >> a[i];
     }
    
-    med = a[0];
+    med = a[0];      //Median = First element
     s.push(a[0]);
     cout << med << "\n";
     for (int i = 1; i < n; i++) {

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int kthLargest(int stream[], int n, int k) {
+int kthLargest(int stream[], int n, int k) {  // Func for kthLargest
 	priority_queue<int, vector<int>, greater<int>> pq;
 	for ( int i = 0; i < k-1; i++) {
 		pq.push(stream[i]);
